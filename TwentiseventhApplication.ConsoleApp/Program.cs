@@ -34,9 +34,9 @@ namespace TwentiseventhApplication.ConsoleApp
         {
             int num1;
             int num2;
-            Console.WriteLine($"Введите первое значение: ");
+            Console.WriteLine("Введите первое значение:");
             num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Введите второе значение: ");
+            Console.WriteLine("Введите второе значение:");
             num2 = Convert.ToInt32(Console.ReadLine());
             int result = num1 + num2;
             Console.WriteLine($"\n{result}");
